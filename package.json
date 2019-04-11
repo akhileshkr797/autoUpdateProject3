@@ -4,7 +4,9 @@
     "description": "autoUpdate",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "build": "build --win",
+        "ship": "build --win -p always"
     },
     "repository": {
         "type": "git",
@@ -15,5 +17,11 @@
     "bugs": {
         "url": "https://github.com/akhileshkr797/autoUpdateProject3/issues"
     },
-    "homepage": "https://github.com/akhileshkr797/autoUpdateProject3#readme"
+    "homepage": "https://github.com/akhileshkr797/autoUpdateProject3#readme",
+    "devDependencies": {
+        "electron-builder": "^20.39.0"
+    },
+    "dependencies": {
+        "electron-updater": "^4.0.6"
+    }
 }
