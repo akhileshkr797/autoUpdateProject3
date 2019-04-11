@@ -4,9 +4,7 @@
     "description": "autoUpdate",
     "main": "main.js",
     "scripts": {
-        "start": "electron .",
-        "build": "build --win",
-        "ship": "build --win -p always"
+        "start": "electron ."
     },
     "repository": {
         "type": "git",
