@@ -1,0 +1,21 @@
+{
+    "name": "autoupdateproject3",
+    "version": "1.0.0",
+    "description": "autoUpdate",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "build --win",
+        "ship": "build --win -p always"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akhileshkr797/autoUpdateProject3.git"
+    },
+    "author": "akhi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/akhileshkr797/autoUpdateProject3/issues"
+    },
+    "homepage": "https://github.com/akhileshkr797/autoUpdateProject3#readme"
+}

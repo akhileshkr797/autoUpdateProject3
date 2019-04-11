@@ -1,0 +1,4 @@
+appId: "autoUpdateProject3"
+publish:
+    provider: "github"
+    token: "c0a7601e7072266ef12531f180bbba17815ae0a3"
